@@ -60,6 +60,15 @@ public class Vehicle {
         this.cargoCapacity = cargoCapacity;
     }
 
+
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
     public int getFuelCapacity() {
         return fuelCapacity;
     }
